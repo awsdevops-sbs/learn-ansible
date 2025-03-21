@@ -6,4 +6,8 @@
   tasks:
     - name:
       debug:
-        msg: Demo play variable {{ url_play }}
+        msg: varibletype = {{ url_play }}
+      debug:
+        msg: varibletype = {{ url_task }}
+      vars:
+        url_task: task.varible.example
