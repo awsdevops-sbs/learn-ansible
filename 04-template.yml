@@ -5,8 +5,9 @@
     - name: template example to copy the conf files
       copy:
         src: example.conf
-        dest: /tmp/example.conf
-    - name: template exaple
+        dest: /tmp/example-copy.conf
+
+    - name: template example
       template:
         src: example.conf
         dest: /tmp/example-temp.conf
