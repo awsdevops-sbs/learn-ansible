@@ -20,6 +20,6 @@
 
     - name: display command line output
       debug:
-        msg: CML output = {{ output }}
+        msg: CML output = {{ output.stdout }}
 
 
