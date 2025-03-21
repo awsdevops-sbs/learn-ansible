@@ -23,3 +23,5 @@
         msg: CML output = {{ output.stdout }}
 
 
+  roles:
+    - demo
