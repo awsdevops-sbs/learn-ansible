@@ -1,6 +1,6 @@
 ---
 - name: Hello Role example
-  hosts:
+  hosts: localhost
   vars:
     url_play: play.variable.example
   tasks:
