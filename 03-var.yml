@@ -1,0 +1,9 @@
+---
+- name: Hello Role example
+  hosts:
+  vars:
+    url_play: play.variable.example
+  tasks:
+    - name:
+      debug:
+        msg: Demo play variable {{ url_play }}
