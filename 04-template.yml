@@ -5,4 +5,4 @@
     - name: template example to copy the conf files
       copy:
         src: example.conf
-        dist: /tmp/example.conf
+        dest: /tmp/example.conf
