@@ -1,0 +1,5 @@
+---
+- name: Hello Role example
+  debug:
+    msg: Hello
+
