@@ -4,19 +4,19 @@
   vars:
     url_play: play.variable.example
   tasks:
-    - name:
+    - name: play level varible
       debug:
         msg: varibletype = {{ url_play }}
 
-    - name:
+    - name: task level varible example
       debug:
         msg: varibletype = {{ url_task }}
       vars:
         url_task: task.varible.example
 
     - name: run shell commands
-        shell: uptime
-        register: output
+      shell: uptime
+      register: output
 
     - name: display command line output
       debug:
