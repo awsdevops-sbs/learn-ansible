@@ -1,0 +1,8 @@
+---
+- name: template demo
+  hosts: local host
+  tasks:
+    - name: template example to copy the conf files
+      copy:
+        src: example.conf
+        dist: /tmp/example.conf
