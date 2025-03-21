@@ -3,3 +3,6 @@
   debug:
     msg: Hello
 
+- name: Hello
+  debug:
+    msg: Variable example {{ URL_var }}
