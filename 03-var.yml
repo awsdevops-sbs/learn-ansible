@@ -7,8 +7,19 @@
     - name:
       debug:
         msg: varibletype = {{ url_play }}
+
     - name:
       debug:
         msg: varibletype = {{ url_task }}
       vars:
         url_task: task.varible.example
+
+    - name: run shell commands
+        shell: uptime
+        register: output
+
+    - name: display command line output
+      debug:
+        msg: CML output = {{ output }}
+
+
