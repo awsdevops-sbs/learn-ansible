@@ -1,0 +1,7 @@
+---
+- name: facts demo
+  hosts: localhost
+  tasks:
+    - name: fact example
+      debug:
+        msg: hostname- {{ ansible_hostname }}
