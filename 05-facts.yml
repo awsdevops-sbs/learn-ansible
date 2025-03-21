@@ -4,4 +4,4 @@
   tasks:
     - name: fact example
       debug:
-        msg: hostname- {{ ansible_hostname }}
+        msg: hostname- {{ ansible_all }}
