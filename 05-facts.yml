@@ -4,4 +4,4 @@
   tasks:
     - name: fact example
       debug:
-        msg: hostname- {{ ansible_all }}
+        msg: hostname- { ansible_distribution } { ansible_distribution_version }
