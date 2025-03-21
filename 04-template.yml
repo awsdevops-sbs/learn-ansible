@@ -6,3 +6,7 @@
       copy:
         src: example.conf
         dest: /tmp/example.conf
+    - name: template exaple
+      template:
+        src: example.conf
+        dest: /tmp/example-temp.conf
